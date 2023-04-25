@@ -39,6 +39,30 @@ Demo codes are included that generate sythetic datasets and run calibrations on 
 
 SO(3) case is handled in ``main_dataGeneration_SO3.m`` and ``main_solve_AXYB_SO3.m``
 
+```
+       Method          Time        TimeD       Proj      Rec  
+    _____________    ________    _________    ______    ______
+
+    {'Tsai'     }      1.7045       1.6613    3.0243     2.723
+    {'Park'     }      1.5945       1.5656    3.0215    2.7227
+    {'Horaud'   }      1.6124       1.5988    3.0214    2.7223
+    {'Liang'    }      1.5536       1.5438    3.0214    2.7223
+    {'Li'       }      1.5731       1.5679    2.3647    1.9909
+    {'Shah'     }      1.5188       1.5149    1.4898    1.4405
+    {'TabbZ1'   }      2.2759       1.5356    1.6917    1.5853
+    {'TabbZ2'   }      10.009       1.5189    1.6701    1.5838
+    {'TabbR'    }      2.1257       1.4869    1.4113    1.3595
+    {'AliX1'    }      3.0857       1.5695    3.3509    3.0197
+    {'AliX2'    }      2.6798       1.5229    3.4001    3.1389
+    {'AliR1'    }      3.9818       1.5295    1.4353    1.3806
+    {'AliR2'    }      2.6223       1.5303    1.4139    1.3612
+    {'Zhao'     }      3.3255        1.412    2.7252    2.4904
+    {'Wu'       }      1.5477       1.5415    3.4871    3.1516
+    {'Sarabandi'}       1.548       1.5413    3.0603    2.7448
+    {'GPAS'     }    0.018806    0.0003097    1.4438     1.353
+    {'GPAP'     }     0.10938     0.000254    1.4113    1.3595
+    {'GPAM'     }    0.048826    0.0004161    1.4275    1.3479
+```
 
 ## Open Dataset
 A synced sequence of camera image and poses from end-effector can be downloaded from https://github.com/zarathustr/hand_eye_data.
