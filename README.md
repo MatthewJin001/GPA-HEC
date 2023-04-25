@@ -7,7 +7,7 @@ Hand-eye calibration in this paper is further studied as a 2D-3D generative poin
 
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/gitPic.png)
 
-**_Figure_**: Visual representation of the hand-eye calibration of GPAs (a) GPAM (b) GPAS (c) GPAP
+**_Figure_**: Visual representation of the hand-eye calibration of GPAs (a) GPAM (b) GPAS (c) GPAP.
 
 
 ## How to use
@@ -90,19 +90,15 @@ The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public
 
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/2.png)
 
-**_Figure_**: Visual representation of the GPA hand-eye calibration (a) GPAM (b) GPAS (c) GPAP
-
-## Reference
-
+**_Figure_**: Image of the dataset (a) JAKA (Normal) (b) Wrinkled (c) Small
 
 ## Video
 Video record for the hand-eye calibration dataset is on tps://www.youtube.com/watch?v=udUMbf67ntw
 
-## Usefull links for hand-eye calibration
+
+## Reference
 * Kenji Koide and Emanuele Menegatti, General Hand-Eye Calibration based on Reprojection Error Minimization, IEEE Robotics and Automation Letters/ICRA2019, https://github.com/koide3/st_handeye_graph
 * Wu, J., Sun, Y., Wang, M., Liu*, M. (2019) Hand-eye Calibration: 4D Procrustes Analysis Approach. IEEE Trans. Instrum. Meas, https://github.com/MatthewJin001/hand_eye_SO4
-
-
 
 
 ## Contact
