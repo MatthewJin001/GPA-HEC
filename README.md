@@ -31,6 +31,12 @@ where
 * ``patternX`` (1x1): the pattern row, used to determine the center point for initialization,
 * ``patternY`` (1x1): the pattern cloumn, used to determine the center point for initialization,
 * ``K`` (3x3): the camera intrinsic,
+* ``out``: the output structure, specifically includes the following
+* ``eRc`` (3x3): the rotation part of hand-eye pose from camera to effector,
+* ``etc`` (3x1): the translation part of hand-eye pose from camera to effecotor (unit: m),
+* ``p`` (3mx1): the marker positons in the base frame, 
+* ``rnti1`` (1x1):  the data preparation runtime (unit: seconds),
+* ``rnti2`` (1×1)： the total runtime (unit: seconds).
 
 ### Demos
 Demo codes are included that generate sythetic datasets and run calibrations on the generated datasets.
