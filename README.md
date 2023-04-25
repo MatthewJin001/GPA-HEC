@@ -41,7 +41,7 @@ Jin, G., Yu, X., Chen, Y., Li, J. (2023), Simultaneous hand-eye and target param
 %            by solving 2d-3d generative point alignment problem, submitted to IEEE Trans. Instrum. Meas.
 
 ## Video
-To do.
+https://github.com/MatthewJin001/GPA-HEC
 
 ## Usefull links for hand-eye calibration
 * Kenji Koide and Emanuele Menegatti, General Hand-Eye Calibration based on Reprojection Error Minimization, IEEE Robotics and Automation Letters/ICRA2019, https://github.com/koide3/st_handeye_graph
