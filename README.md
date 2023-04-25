@@ -3,6 +3,9 @@
 ## Overview
 Hand-eye calibration is further studied as a 2D-3D generative point alignment (GPA) problem. For multi-point, single-point and patterned calibration targets, GPAM, GPAS and GPAP are proposed to simultaneously estimate the hand-eye and the target parameters, and solved by a initialization-to-refinement structure. A general initialization method based on a single-point sequence is novelly proposed, which definetely gets rid of the dependence on pose. The perturbation-basd refinement is optimizaed using analytical Jacobians and point sparsity. 
 
+Jin, G., Yu, X., Chen, Y., Li, J. (2023), Simultaneous hand-eye and target parameter estimation
+%            by solving 2d-3d generative point alignment problem, submitted to IEEE Trans. Instrum. Meas.
+
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/gitPic.png)
 
 **_Figure_**: Visual representation of the hand-eye calibration of GPAs (a) GPAM (b) GPAS (c) GPAP
@@ -91,11 +94,10 @@ The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public
 **_Figure_**: Visual representation of the GPA hand-eye calibration (a) GPAM (b) GPAS (c) GPAP
 
 ## Reference
-Jin, G., Yu, X., Chen, Y., Li, J. (2023), Simultaneous hand-eye and target parameter estimation
-%            by solving 2d-3d generative point alignment problem, submitted to IEEE Trans. Instrum. Meas.
+
 
 ## Video
-https://github.com/MatthewJin001/GPA-HEC
+Video record for the hand-eye calibration dataset is on tps://www.youtube.com/watch?v=udUMbf67ntw
 
 ## Usefull links for hand-eye calibration
 * Kenji Koide and Emanuele Menegatti, General Hand-Eye Calibration based on Reprojection Error Minimization, IEEE Robotics and Automation Letters/ICRA2019, https://github.com/koide3/st_handeye_graph
