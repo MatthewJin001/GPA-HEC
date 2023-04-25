@@ -84,7 +84,7 @@ Demo ``main`` contains the calibration and evaluation of multiple methods. run `
 ```
 
 ## Open Dataset
-A synced sequence of camera image and poses from end-effector can be downloaded from https://github.com/zarathustr/hand_eye_data.
+The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public datasets, DENSE and KUKA, are uploaded in the ``dataset`` folder.
 
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/2.png)
 
