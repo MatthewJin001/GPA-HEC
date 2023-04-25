@@ -97,8 +97,10 @@ Video record for the hand-eye calibration dataset is on tps://www.youtube.com/wa
 
 
 ## Reference
-* Kenji Koide and Emanuele Menegatti, General Hand-Eye Calibration based on Reprojection Error Minimization, IEEE Robotics and Automation Letters/ICRA2019, https://github.com/koide3/st_handeye_graph
-* Wu, J., Sun, Y., Wang, M., Liu*, M. (2019) Hand-eye Calibration: 4D Procrustes Analysis Approach. IEEE Trans. Instrum. Meas, https://github.com/MatthewJin001/hand_eye_SO4
+* Sarabandi S, Porta J M, Thomas F. Hand-eye calibration made easy through a closed-form two-stage method[J]. IEEE Robotics and Automation Letters, 2022, 7(2): 3679-3686, https://github.com/MatthewJin001/Hand-Eye-Calibration
+* Wu J, Sun Y, Wang M, et al. Hand-eye calibration: 4-D procrustes analysis approach[J]. IEEE Transactions on Instrumentation and Measurement, 2019, 69(6): 2966-2981, https://github.com/MatthewJin001/hand_eye_SO4
+* Tabb A, Ahmad Yousef K M. Solving the robot-world hand-eye (s) calibration problem with iterative methods[J]. Machine Vision and Applications, 2017, 28(5-6): 569-590, https://github.com/MatthewJin001/RWHEC-Tabb-AhmadYousef
+* Ali I, Suominen O, Gotchev A, et al. Methods for simultaneous robot-world-hand–eye calibration: A comparative study[J]. Sensors, 2019, 19(12): 2837, https://github.com/MatthewJin001/RWHE-Calib
 
 
 ## Contact
