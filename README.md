@@ -33,12 +33,31 @@ where
 * ``rnti2`` (1×1)： the total runtime (unit: seconds).
 
 ### Demos
-Demo codes are included that generate sythetic datasets and run calibrations on the generated datasets.
-* To generate a synthetic dataset, run ``main_dataGeneration_SE3.m``.
-* To run calibration on the generated dataset, run ``main_solve_AXYB_SE3.m``.
+Demo ``main`` contains the calibration and evaluation of multiple methods. run ``main.m``, the results will be stored in ``result.xlsx``. The calibration and the evaluation results of the normal dataset in the paper are as follows
+```
+      Method          tx         ty         tz        Rx         Ry        Rz  
+    _____________    _______    _______    ______    _______    ______    ______
 
-SO(3) case is handled in ``main_dataGeneration_SO3.m`` and ``main_solve_AXYB_SO3.m``
-
+    {'Tsai'     }    -7.7698     -39.71    60.601    -30.714    26.023    38.065
+    {'Park'     }    -7.7004    -39.678    60.612    -30.741    26.032    38.059
+    {'Horaud'   }    -7.6994    -39.677    60.612    -30.741    26.031    38.061
+    {'Liang'    }    -7.6995    -39.677    60.612    -30.741     26.03    38.061
+    {'Li'       }     -9.581    -39.506    56.023    -30.792    25.879    38.002
+    {'Shah'     }    -6.4477    -43.536    53.069    -30.794    25.878    38.002
+    {'TabbZ1'   }    -7.3139      -42.3    54.278    -30.843    25.946    37.932
+    {'TabbZ2'   }    -6.5372    -43.287    54.756    -30.708    25.831     38.12
+    {'TabbR'    }    -6.7196    -43.616    51.889    -30.742    25.875    38.036
+    {'AliX1'    }    -7.0119    -38.716    60.887    -30.909    25.881    38.196
+    {'AliX2'    }    -6.2126    -39.046    61.142    -30.961    25.883    38.157
+    {'AliR1'    }    -7.4246     -44.16    52.158    -30.644    25.848     38.07
+    {'AliR2'    }    -6.8326    -43.298    51.485     -30.75    25.878    37.983
+    {'Zhao'     }    -6.3412    -39.347    57.654    -30.857     25.83    38.081
+    {'Wu'       }    -8.9322    -39.555    62.226    -30.741    26.026    38.065
+    {'Sarabandi'}    -7.6559    -39.671    60.618     -30.74    25.929    38.148
+    {'GPAS'     }    -6.8563    -42.375    52.069    -30.772     25.92     37.97
+    {'GPAP'     }    -6.7196    -43.616     51.89    -30.742    25.875    38.036
+    {'GPAM'     }    -7.2773    -43.033    51.989    -30.749    25.854    38.015
+```
 ```
        Method          Time        TimeD       Proj      Rec  
     _____________    ________    _________    ______    ______
