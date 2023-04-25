@@ -10,7 +10,8 @@ Hand-eye calibration is further studied as a 2D-3D generative point alignment (G
 
 ## How to use
 ### Dependencies
-The code is dependent on Matlab and some of its toolkits such as Computer Vision Toolbox.
+It works well on MATLAB R2023a. The GPAs themselves do not use any solvers, while comparison algorithms and evaluation need the solvers in Optimization Toolbox.
+
 ### Main Instructions
 To run the calibration, call
 ```
