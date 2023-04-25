@@ -1,11 +1,11 @@
 ## Simultaneous hand-eye and target parameter estimation by solving 2d-3d generative point alignment problem
 
 ## Overview
-Hand-eye calibration is further studied as a 2D-3D generative point alignment (GPA) problem. For multi-point, single-point and patterned calibration targets, GPAM, GPAS and GPAP are proposed to simultaneously estimate the hand-eye and the target parameters. These formulations are solved by a initialization-to-refinement structure. A general initialization method based on a single-point sequence is novelly proposed, which definetely gets rid of the dependence on pose. The perturbation-basd refinement is optimizaed using analytical Jacobian and point sparsity. 
+Hand-eye calibration is further studied as a 2D-3D generative point alignment (GPA) problem. For multi-point, single-point and patterned calibration targets, GPAM, GPAS and GPAP are proposed to simultaneously estimate the hand-eye and the target parameters, and solved by a initialization-to-refinement structure. A general initialization method based on a single-point sequence is novelly proposed, which definetely gets rid of the dependence on pose. The perturbation-basd refinement is optimizaed using analytical Jacobians and point sparsity. 
 
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/gitPic.png)
 
-**_Figure_**: Formulations relating geometrical transformation for calibration (a) Hand-Eye Calibration (b) Robot-World-Hand-Eye Calibration
+**_Figure_**: Visual representation of the GPA hand-eye calibration (a) GPAM (b) GPAS (c) GPAP
 
 
 ## How to use
