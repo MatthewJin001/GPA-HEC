@@ -15,15 +15,9 @@ It works well on MATLAB R2023a. The GPAs themselves do not use any solvers, whil
 ### Main Instructions
 To run the GMAM calibration, call
 ```
-[X, Y] = solveAXYB_SE3(A,B,alpha,param)
 [out] = Algo19_GPAM(bRie,btie,qij,pattern,patternX,patternY,K)
 ```
 where
-* ``A, B`` are the measurement datasets, each of which is in size of ``4 X 4 X n`` (for n measurements).
-* ``alpha`` is weight factor of translation error; e.g., transration error of 1.0mm is equally weighted to 1 radian rotational error given ``alpha = 1.0`` (when length unit in data is mm).
-* ``param`` is a struct of algorithm parameters. Declare by ``param = defaultParam()`` and set ``param.globalOptMethod = 2`` for stochastic global optimization. See  ``instruction.docx`` for more details.
-* ``X, Y`` are the calibration results.
-
 * ``bRie`` (3x3xn): the rotation matrix of robot pose from effector to base,
 * ``btie`` (3xn): the translation vector of robot pose  from effector to base (unit: m),
 * ``qij`` (2xnxm): the 2D pixel,
