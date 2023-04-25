@@ -2,7 +2,7 @@
 
 ## Overview
 Solve the 2D-3D generative point alignment problem to estimate both the hand-eye parameter and the parameters of different calibration targets (single marker, mutiple markers and pattern).
-![mainFig](https://user-images.githubusercontent.com/32157027/58380789-21da9e00-7fbe-11e9-9cf7-e81a5b515652.png)
+![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/gitPic.png)
 
 **_Figure_**: Formulations relating geometrical transformation for calibration (a) Hand-Eye Calibration (b) Robot-World-Hand-Eye Calibration
 
