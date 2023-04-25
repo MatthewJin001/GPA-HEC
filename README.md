@@ -90,7 +90,7 @@ The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public
 
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/2.png)
 
-**_Figure_**: Image of the dataset (a) JAKA (Normal) (b) Wrinkled (c) Small
+**_Figure_**: Image of the dataset (a) JAKA (Normal) (b) Wrinkled (c) Small.
 
 ## Video
 Video record for the hand-eye calibration dataset is on tps://www.youtube.com/watch?v=udUMbf67ntw
