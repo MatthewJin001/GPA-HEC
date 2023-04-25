@@ -32,6 +32,10 @@ SO(3) case is handled in ``main_dataGeneration_SO3.m`` and ``main_solve_AXYB_SO3
 ## Open Dataset
 A synced sequence of camera image and poses from end-effector can be downloaded from https://github.com/zarathustr/hand_eye_data.
 
+![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/2.png)
+
+**_Figure_**: Visual representation of the GPA hand-eye calibration (a) GPAM (b) GPAS (c) GPAP
+
 ## Reference
 Jin, G., Yu, X., Chen, Y., Li, J. (2023), Simultaneous hand-eye and target parameter estimation
 %            by solving 2d-3d generative point alignment problem, submitted to IEEE Trans. Instrum. Meas.
