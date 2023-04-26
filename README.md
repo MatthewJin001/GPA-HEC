@@ -94,8 +94,8 @@ The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public
 
 ## Video
 Video record for the hand-eye calibration dataset is on https://www.youtube.com/watch?v=udUMbf67ntw
-
-
+![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/exp.jpg)
+**_Figure_**: Experimental configuration.
 ## Reference
 * Sarabandi S, Porta J M, Thomas F. Hand-eye calibration made easy through a closed-form two-stage method[J]. IEEE Robotics and Automation Letters, 2022, 7(2): 3679-3686, https://github.com/MatthewJin001/Hand-Eye-Calibration
 * Wu J, Sun Y, Wang M, et al. Hand-eye calibration: 4-D procrustes analysis approach[J]. IEEE Transactions on Instrumentation and Measurement, 2019, 69(6): 2966-2981, https://github.com/MatthewJin001/hand_eye_SO4
