@@ -15,7 +15,7 @@ Hand-eye calibration in this paper is further studied as a 2D-3D generative poin
 It works well on MATLAB R2023a. The GPAs themselves do not use any solvers, while comparison algorithms and evaluation need the solvers in Optimization Toolbox.
 
 ### Main Instructions
-To run the GMAM calibration, call
+To run the GPAM calibration, call
 ```
 [out] = Algo19_GPAM(bRie,btie,qij,pattern,patternX,patternY,K)
 ```
@@ -23,14 +23,14 @@ where
 * ``bRie`` (3x3xn): the rotation matrix of robot pose from effector to base,
 * ``btie`` (3xn): the translation vector of robot pose  from effector to base (unit: m),
 * ``qij`` (2xnxm): the 2D pixel,
-* ``pattern`` (3xm): the point position on the pattern, only used by GPMP,
+* ``pattern`` (3xm): the point position on the pattern, only used by GPAP,
 * ``patternX`` (1x1): the pattern row, used to determine the center point for initialization,
 * ``patternY`` (1x1): the pattern cloumn, used to determine the center point for initialization,
-* ``K`` (3x3): the camera intrinsic,
+* ``K`` (3x3): the camera intrinsics,
 * ``out``: the output structure, specifically includes the following
-* ``eRc`` (3x3): the rotation part of hand-eye pose from camera to effector,
-* ``etc`` (3x1): the translation part of hand-eye pose from camera to effecotor (unit: m),
-* ``p`` (3mx1): the marker positons in the base frame, 
+* ``eRc`` (3x3): the rotation matrix of hand-eye pose from camera to effector,
+* ``etc`` (3x1): the translation vector of hand-eye pose from camera to effecotor (unit: m),
+* ``p`` (3mx1): the feature point positons in the base frame, 
 * ``rnti1`` (1x1):  the data preparation runtime (unit: seconds),
 * ``rnti2`` (1×1)： the total runtime (unit: seconds).
 
@@ -93,7 +93,7 @@ The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public
 **_Figure_**: Image of the dataset (a) JAKA (Normal) (b) Wrinkled (c) Small.
 
 ## Video
-Video record for the hand-eye calibration dataset is on tps://www.youtube.com/watch?v=udUMbf67ntw
+Video record for the hand-eye calibration dataset is on https://www.youtube.com/watch?v=udUMbf67ntw
 
 
 ## Reference
