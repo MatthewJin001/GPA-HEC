@@ -7,12 +7,12 @@ Hand-eye calibration in this paper is further studied as a 2D-3D generative poin
 
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/gitPic.png)
 
-**_Figure_**: Visual representation of the hand-eye calibration of GPAs (a) GPAM (b) GPAS (c) GPAP.
+**_Figure_**: Visual representation of the hand-eye calibration of GPA methods (a) GPAM (b) GPAS (c) GPAP.
 
 
 ## How to use
 ### Dependencies
-It works well on MATLAB R2023a. The GPAs themselves do not use any solvers, while comparison algorithms and evaluation need the solvers in Optimization Toolbox.
+It works well on MATLAB R2023a. The GPA methods themselves are solver-free, while compared algorithms and evaluation need the solvers in Optimization Toolbox.
 
 ### Main Instructions
 To run the GPAM calibration, call
@@ -86,7 +86,7 @@ Demo ``main`` contains the calibration and evaluation of multiple methods. run `
 ```
 
 ## Open Dataset
-The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public datasets, DENSE and KUKA, are uploaded in the ``dataset`` folder.
+The self-made datasets, JAKA (Normal), Wrinkled and Small, along with the public datasets, DENSE and KUKA, will be organized and uploaded to the ``dataset`` folder in the near feature.
 
 ![mainFig](https://github.com/MatthewJin001/GPA-HEC/blob/main/figure/2.png)
 
